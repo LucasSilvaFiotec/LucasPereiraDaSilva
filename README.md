@@ -2,7 +2,7 @@
 # propriedades das classes: 
 # namespace InfoDengue.Api.Models.Logs
  {
-   public class EpidemiologicalDataLog
+#   public class EpidemiologicalDataLog
     {
         public int Id { get; set; } 
         public DateTime Data { get; set; } 
@@ -15,7 +15,7 @@
 #
 namespace InfoDengue.Api.Models.Logs
  {
-     public class UserAccessLog
+#     public class UserAccessLog
     {
         public int Id { get; set; } 
         public string usuarioId { get; set; } 
