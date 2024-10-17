@@ -1,8 +1,8 @@
 # Ao subir o projeto, umas das pastas não subiu. Camada Services > Models> Logs que continha as classes EpidemiologicaIDataLog e UserAcessLog. 
 # propriedades das classes: 
-namespace InfoDengue.Api.Models.Logs
-{
-    public class EpidemiologicalDataLog
+#namespace InfoDengue.Api.Models.Logs
+#{
+#    public class EpidemiologicalDataLog
     {
         public int Id { get; set; } 
         public DateTime Data { get; set; } 
