@@ -1,6 +1,6 @@
 # Ao subir o projeto, umas das pastas não subiu. Camada Services > Models> Logs que continha as classes EpidemiologicaIDataLog e UserAcessLog. 
-# propriedades das classes: 
 
+Propriedades das classes: 
 #   public class EpidemiologicalDataLog
     {
         public int Id { get; set; } 
@@ -22,4 +22,5 @@
     }
  }
 
-##No Controller DadosEpidemiologicos, é necessário atualizar a rota do método GetDadosFiltrados. A rota correta para esse endPoint é [HttpGet("municipios/filtrados")], com isso, o swagger exibirá os endpoints. 
+
+#No Controller DadosEpidemiologicos, é necessário atualizar a rota do método GetDadosFiltrados. A rota correta para esse endPoint é [HttpGet("municipios/filtrados")], com isso, o swagger exibirá os endpoints. 
