@@ -23,4 +23,4 @@ Propriedades das classes:
  }
 
 
-#No Controller DadosEpidemiologicos, é necessário atualizar a rota do método GetDadosFiltrados. A rota correta para esse endPoint é [HttpGet("municipios/filtrados")], com isso, o swagger exibirá os endpoints. 
+# No Controller DadosEpidemiologicos, é necessário atualizar a rota do método GetDadosFiltrados. A rota correta para esse endPoint é [HttpGet("municipios/filtrados")], com isso, o swagger exibirá os endpoints. 
